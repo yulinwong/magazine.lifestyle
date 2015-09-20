@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 /*============ Navigation ================*/
 
 .navbar-default {
-	background-color: #f2f2f2;
+	background-color: #2b2929;
   font-family: 'Autour One', cursive;
   border-bottom: 7px solid #e3005a;
 	width: 100%;
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: #f2f2f2;
     font-size: 14px;
     line-height: 26px;
     padding: 20px 15px;
@@ -120,12 +120,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-nav > li.current > a {
-    color: #e3005a;
-    background-color: #f2f2f2;
+    color: #f2f2f2;
+    background-color: #e3005a;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    color: #e3005a;
+    text-decoration: underline;
 }
 
 
