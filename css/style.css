@@ -25,11 +25,14 @@ Common styles
 }
 
 body {
-    color: #333333;
-    font-family: Arial,Helvetica,sans-serif;
-    font-size: 12px;
-	background:url(images/background/pattern-1.png) repeat 0 0 #f8f8f8;
+    background-color: #2B2C30;
+    font-family: 'Lato', serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #ddd;
 }
+
 pre, code {
     font-family: 'DejaVu Sans Mono',Menlo,Consolas,monospace;
 }
@@ -206,7 +209,7 @@ blockquote {
 /* =========================================================
 CSS3 Transition
 ============================================================ */
-#main-menu li ul li, #main-menu li ul li a, .column-a .widget ul li a, .big-button, .medium-button, .small-button, .download-button, .upload-button, .back-button, .next-button, .complete-button, .cancel-button, .kp-color-button .black-button, .kp-color-button .grey-button, .kp-color-button .white-button, .kp-color-button .red-button, .kp-color-button .orange-button, .kp-color-button .yellow-button, .kp-color-button .dark-blue-button, .kp-color-button .light-blue-button, .kp-color-button .green-button, .kp-color-button .maroon-button, .kp-color-button .pink-button, .bottom-sidebar .widget ul li, .bottom-sidebar .widget ul li a, .kp-tag span, .bottom-menu li a, .kopa-tag, .about-author a, .related-widget .entry-content a, .widget .entry-title a, .pagination li, .pagination li a, #toggle-view h3, .accordion-title {
+.navbar li ul li, .navbar li ul li a, .column-a .widget ul li a, .big-button, .medium-button, .small-button, .download-button, .upload-button, .back-button, .next-button, .complete-button, .cancel-button, .kp-color-button .black-button, .kp-color-button .grey-button, .kp-color-button .white-button, .kp-color-button .red-button, .kp-color-button .orange-button, .kp-color-button .yellow-button, .kp-color-button .dark-blue-button, .kp-color-button .light-blue-button, .kp-color-button .green-button, .kp-color-button .maroon-button, .kp-color-button .pink-button, .bottom-sidebar .widget ul li, .bottom-sidebar .widget ul li a, .kp-tag span, .bottom-menu li a, .kopa-tag, .about-author a, .related-widget .entry-content a, .widget .entry-title a, .pagination li, .pagination li a, #toggle-view h3, .accordion-title {
 	-webkit-transition: all 0.3s ease-in-out;
  	-moz-transition: all 0.3s ease-in-out;
  	-o-transition: all 0.3s ease-in-out;
@@ -351,103 +354,44 @@ Clear Floated Elements
 .mb-30 {
 	margin-bottom:30px;
 }
-/* =========================================================
-	Header
-============================================================ */
-#header {
-	height:242px;
-	border-bottom:1px solid #c7c7c7;
-	background:url(images/background/pattern-2.png) repeat 0 0 #dfdfdf;
-	z-index:9999;
+
+/*============ Navigation ================*/
+
+.navbar-default {
+	background-color: #2B2C30;
+  font-family: 'Autour One', cursive;
+  border-bottom: 1px solid #666;
+	width: 100%;
+	z-index: 99;
 }
-#header-top {
-	background-color:#000;
-	border-bottom:7px solid #e3005a;
-	margin-bottom:20px;
-	box-shadow:1px 5px 5px rgba(147,147,147,0.75);
-	-moz-box-shadow:1px 5px 5px rgba(147,147,147,0.75);
-	-webkit-box-shadow:1px 5px 5px rgba(147,147,147,0.75);
-	position:relative;
-	z-index:9999;
+
+.navbar-brand > img {
+  object-fit: contain;
+  max-height: 100%;
+  height: 100%;
 }
-/*----------Main Nav----------*/
-#main-nav {
-	position:relative;
-	z-index:9999;
-	zoom:1;
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+    padding: 20px 15px;
+
+	-webkit-transition: background .5s ease-in-out 0s;
+	   -moz-transition: background .5s ease-in-out 0s;
+		 -o-transition: background .5s ease-in-out 0s;
+			transition: background .5s ease-in-out 0s;
 }
-/*---Main menu---*/
-#main-menu {
-	margin:0;
-	position:relative;
-	z-index:9999;
-	zoom:1;
+
+.navbar-default .navbar-nav > li.current > a {
+    color: #6cb670;
+    background-color: #2f3238;
 }
-#main-menu > li {
-	margin:0;
-	float:left;
-	list-style:none;
-	position:relative;
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #6cb670;
 }
-#main-menu > li.menu-arrow:hover > a {
-	background:url(images/background/menu-arrow.png) no-repeat center bottom;
-}
-#main-menu > li > a {
-	font-family: "BebasNeueRegular", Arial,sans-serif;
-	color:#dbdbdb;
-	font-size:19px;
-	display:block;
-	padding:15px 20px;
-}
-#main-menu > li > a:hover {
-	text-decoration:underline;
-}
-#main-menu > li.current-menu-item {
-	background-color:#e3005a;
-}
-/*---Dropdown menu---*/
-#main-menu li ul {
-	display:none;
-	position:absolute;
-	width:200px;
-	background-color:#181818;
-	margin:0;
-}
-#main-menu > li > ul {
-	top:54px;
-	left:0;
-	border-top:1px solid #e3005a;
-}
-#main-menu li ul li {
-	list-style:none;
-	margin:0;
-	position:relative;
-	border-bottom:1px solid #333;
-}
-#main-menu li ul li:hover {
-	background-color:#0b0b0b;
-}
-#main-menu li ul li a {
-	color:#dbdbdb;
-	display:block;
-	padding:10px 15px;
-	font-size:14px;
-}
-#main-menu li ul li:hover > a {
-	color:#e3005a;
-}
-#main-menu li ul li ul {
-	top:0;
-	left:200px;
-}
-/*---Responsive menu---*/
-#responsive-menu {
-	display:none;
-	margin:10px auto;
-	width:96%;
-	padding:5px 2%;
-	border:none;
-}
+
 /*----------Logo----------*/
 #logo-image {
 	float:left;
