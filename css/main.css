@@ -209,10 +209,10 @@ h1, h2, h3, h4, h5, h6 {
 #search-social {
 	float:right;
   padding-right: 20px;
+  padding-top:10px;
 }
 /*----------Social Links----------*/
 .social-links {
-	margin:1px 0;
 	float:left;
 }
 .social-links li {
@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
 	top:9px;
 }
 .search-box .search-submit:hover {
-	background:url(images/icons/search-icon.png) no-repeat 0 -34px;
+	background:url(https://cloud.githubusercontent.com/assets/8654889/9979245/1fc70fa6-5f95-11e5-9c2b-e5d385d169d8.png) no-repeat 0 -34px;
 }
 
 /*----------Breadcrumb----------*/
