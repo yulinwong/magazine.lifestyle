@@ -76,6 +76,14 @@ h1, h2, h3, h4, h5, h6 {
     width: 40px;
 }
 
+/*----------Logo----------*/
+#logo {
+	float:right;
+	background-color:#f8f8f8;
+	border:1px solid #b4b4b4;
+	padding:10px;
+}
+
 /*============ Navigation ================*/
 
 .navbar-default {
