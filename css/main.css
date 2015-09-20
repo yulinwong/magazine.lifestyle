@@ -204,6 +204,113 @@ h1, h2, h3, h4, h5, h6 {
 .sub-page.v-divider .main-content-bottom {
 	background:url("images/background/line-1.gif") repeat-y scroll 760px 0 transparent;
 }
+
+/*----------Search Social----------*/
+#search-social {
+	float:right;
+}
+/*----------Social Links----------*/
+.social-links {
+	margin:1px 0;
+	float:left;
+}
+.social-links li {
+	margin:0 15px 0 0;
+	list-style:none;
+	width:33px;
+	height:33px;
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	float:left;
+	position:relative;
+	z-index:0;
+}
+.social-links li a {
+	display:block;
+	width:100%;
+	height:100%;
+}
+.social-links li.twitter-icon {
+	background:url(images/icons/twitter-icon-hover.png) no-repeat center center;
+}
+.social-links li.twitter-icon a {
+	background:url(images/icons/twitter-icon.png) no-repeat center center;
+}
+.social-links li.facebook-icon {
+	background:url(images/icons/facebook-icon-hover.png) no-repeat center center;
+}
+.social-links li.facebook-icon a {
+	background:url(images/icons/facebook-icon.png) no-repeat center center;
+}
+.social-links li.dribbble-icon {
+	background:url(images/icons/dribbble-icon-hover.png) no-repeat center center;
+}
+.social-links li.dribbble-icon a {
+	background:url(images/icons/dribbble-icon.png) no-repeat center center;
+}
+.social-links li.forrst-icon {
+	background:url(images/icons/forrst-icon-hover.png) no-repeat center center;
+}
+.social-links li.forrst-icon a {
+	background:url(images/icons/forrst-icon.png) no-repeat center center;
+}
+.social-links li.lastfm-icon {
+	background:url(images/icons/lastfm-icon-hover.png) no-repeat center center;
+}
+.social-links li.lastfm-icon a {
+	background:url(images/icons/lastfm-icon.png) no-repeat center center;
+}
+.social-links li.linkedin-icon {
+	background:url(images/icons/linkedin-icon-hover.png) no-repeat center center;
+}
+.social-links li.linkedin-icon a {
+	background:url(images/icons/linkedin-icon.png) no-repeat center center;
+}
+.social-links li.tumblr-icon {
+	background:url(images/icons/tumblr-icon-hover.png) no-repeat center center;
+}
+.social-links li.tumblr-icon a {
+	background:url(images/icons/tumblr-icon.png) no-repeat center center;
+}
+/*----------Search Box----------*/
+.search-box {
+	float:right;
+	position:relative;
+	background-color:#fbfbfb;
+}
+.search-box .search-text {
+	background:none;
+	border:1px solid #dfdfdf;
+	width:215px;
+	padding:0 35px 0 10px;
+	height:33px;
+	line-height:33px;
+	-webkit-transition: all 0.3s ease-in-out;
+ 	-moz-transition: all 0.3s ease-in-out;
+ 	-o-transition: all 0.3s ease-in-out;
+ 	transition: all 0.3s ease-in-out;
+}
+.search-box .search-text:focus {
+	border:1px solid #e3005a;
+}
+.search-box .search-submit {
+	border:none;
+	width:16px;
+	height:16px;
+	text-indent:-99999px;
+	font-size:0;
+	line-height:0;
+	cursor:pointer;
+	background:url(images/icons/search-icon.png) no-repeat 0 0;
+	position:absolute;
+	right:10px;
+	top:9px;
+}
+.search-box .search-submit:hover {
+	background:url(images/icons/search-icon.png) no-repeat 0 -34px;
+}
+
 /*----------Breadcrumb----------*/
 .breadcrumb {
 	float:left;
