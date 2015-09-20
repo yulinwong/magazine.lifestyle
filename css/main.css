@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #2b2929;
+    color: #dbe1e3;
     font-size: 14px;
     line-height: 26px;
     padding: 20px 15px;
@@ -121,14 +121,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-nav > li.current > a {
-    color: #e3005a;
-    background-color: #f2f2f2;
+    color: #f2f2f2;
+    background-color: #e3005a;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
     text-decoration: underline;
 }
-
 
 #scrollUp {
     border: 1px solid #4e595f;
