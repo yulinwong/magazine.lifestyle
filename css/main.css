@@ -129,6 +129,98 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
+/* =========================================================
+	Main Content
+============================================================ */
+#main-content {
+	margin-top:70px;
+	position:relative;
+	border-left: 1px solid #b4b4b4;
+    border-right: 1px solid #b4b4b4;
+    box-shadow: 0 1px 0 0 #b6b6b6;
+    display: block;
+	z-index:1;
+	background-color:#fff;
+}
+#main-content:before, #main-content:after {
+    bottom: -2px;
+    box-shadow: 0 1px 0 0 #b6b6b6;
+    content: "";
+    left: 1px;
+    position: absolute;
+    right: 1px;
+    top: 0;
+    z-index: -2;
+	border-radius: 0 0 3px 3px;
+}
+#main-content:after {
+    bottom: -4px;
+    left: 2px;
+    right: 2px;
+    z-index: -3;
+}
+#main-content-inner {
+	position:relative;
+    box-shadow: 0 -1px 0 0 #b6b6b6;
+    display: block;
+	z-index:1;
+	background-color:#fff;
+}
+#main-content-inner:before, #main-content-inner:after {
+    top: -2px;
+    box-shadow: 0 -1px 0 0 #b6b6b6;
+    content: "";
+    left: 1px;
+    position: absolute;
+    right: 1px;
+    bottom: 0;
+    z-index: -2;
+	border-radius: 3px 3px 0 0;
+}
+#main-content-inner:after {
+    top: -4px;
+    left: 2px;
+    right: 2px;
+    z-index: -3;
+}
+.main-content-top {
+	border-bottom:1px solid #cdcdcd;
+	padding:10px 0;
+	margin:0 20px;
+}
+.main-content-bottom {
+	background:url(images/background/line-1.gif) repeat-y 380px 0;
+	border-bottom:1px solid #ddd;
+	position:relative;
+}
+.full-width-page .main-content-bottom {
+	padding:0 20px;
+	background:none;
+	padding-bottom:50px;
+}
+.sub-page .main-content-bottom {
+	background:none;
+}
+.sub-page.v-divider .main-content-bottom {
+	background:url("images/background/line-1.gif") repeat-y scroll 760px 0 transparent;
+}
+/*----------Breadcrumb----------*/
+.breadcrumb {
+	float:left;
+	margin-top:10px;
+}
+.breadcrumb span {
+	display:inline-block;
+}
+
+.breadcrumb .current-page,
+.breadcrumb a {
+	color:#e3005a;
+}
+.breadcrumb a:hover {
+	text-decoration:underline;
+}
+
 #scrollUp {
     border: 1px solid #4e595f;
     bottom: 15px;
