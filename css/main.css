@@ -236,6 +236,9 @@ h1, h2, h3, h4, h5, h6 {
 .social-links li.twitter-icon {
 	background:url(https://cloud.githubusercontent.com/assets/8654889/9979206/4f9025c6-5f93-11e5-9f31-344cbffcf8cf.png) no-repeat center center;
 }
+.social-links li.twitter-icon a:hover {
+	background:url(https://cloud.githubusercontent.com/assets/8654889/9979210/6a5ebd18-5f93-11e5-8438-17e9804c5dee.png) no-repeat center center;
+}
 .social-links li.facebook-icon {
 	background:url(https://cloud.githubusercontent.com/assets/8654889/9979213/798a32ea-5f93-11e5-9bb5-e2b85a84bcb6.png) no-repeat center center;
 }
