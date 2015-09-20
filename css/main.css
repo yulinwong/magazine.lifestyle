@@ -205,6 +205,57 @@ h1, h2, h3, h4, h5, h6 {
 	background:url("images/background/line-1.gif") repeat-y scroll 760px 0 transparent;
 }
 
+.wrapper{
+	width:1142px;
+	margin:0 auto;
+}
+
+/* =========================================================
+Clear Floated Elements
+============================================================ */
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;  height: 0;
+}
+.clearfix:before, .clearfix:after{
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+ }
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+.hover-effect{
+	cursor:pointer;
+	z-index:100;
+}
+.entry-thumb {
+	display:block;
+}
+.divider {
+	height:1px;
+	max-height:1px;
+	background:#ddd;
+	margin:0 -20px;
+}
+
 /*----------Search Social----------*/
 #search-social {
 	float:right;
