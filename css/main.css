@@ -208,6 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 /*----------Search Social----------*/
 #search-social {
 	float:right;
+  padding-right: 20px;
 }
 /*----------Social Links----------*/
 .social-links {
@@ -284,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size:0;
 	line-height:0;
 	cursor:pointer;
-	background:url(images/icons/search-icon.png) no-repeat 0 0;
+	background:url(https://cloud.githubusercontent.com/assets/8654889/9979245/1fc70fa6-5f95-11e5-9c2b-e5d385d169d8.png) no-repeat 0 0;
 	position:absolute;
 	right:10px;
 	top:9px;
@@ -297,6 +298,7 @@ h1, h2, h3, h4, h5, h6 {
 .breadcrumb {
 	float:left;
 	margin-top:10px;
+  margin-left: 10px;
 }
 .breadcrumb span {
 	display:inline-block;
