@@ -1,0 +1,61 @@
+.slider-wrap {
+  width: 300px;
+  height: 500px;
+  margin: 20px auto;
+}
+.slider {
+  overflow-x: hidden;
+}
+.holder {
+  width: 300%;
+}
+.slide {
+  float: left;
+  width: 300px;
+  height: 500px;
+  position: relative;
+  background-position: -100px 0;
+}
+.temp {
+  position: absolute;
+  color: white;
+  font-size: 100px;
+  bottom: 15px;
+  left: 15px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 100;
+}
+#slide-0 {
+  background-image: url("https://cloud.githubusercontent.com/assets/8654889/9946800/3f0397f0-5dc8-11e5-866f-f8510243f7da.jpg");
+}
+#slide-1 {
+  background-image: url("https://cloud.githubusercontent.com/assets/8654889/9946862/b3f3618a-5dc8-11e5-80c5-345bd4061992.jpg");
+}
+#slide-2 {
+  background-image: url("https://cloud.githubusercontent.com/assets/8654889/9930606/6b3db762-5d67-11e5-86a1-18a586e08884.jpg");
+}
+.slide:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(transparent, black);
+}
+.slider-nav {
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+.slider-nav a {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: #ddd;
+  overflow: hidden;
+  text-indent: -9999px;
+  border-radius: 50%;
+}
+.slider-nav a.active {
+  background: #999;
+}
