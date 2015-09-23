@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin:0 20px;
 }
 .main-content-bottom {
-	background:url(images/background/line-1.gif) repeat-y 380px 0;
+	background:url("https://cloud.githubusercontent.com/assets/8654889/10052708/d490f268-625a-11e5-9240-f9b116ea5b02.png") repeat-y 380px 0;
 	border-bottom:1px solid #ddd;
 	position:relative;
 }
