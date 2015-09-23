@@ -1,62 +1,130 @@
-.slider-wrap {
-  width: 300px;
-  height: 500px;
-  margin: 20px auto;
+#content-slider {
+font-family: arial;
+width: 640px;
+margin: 0 auto;
+margin-top: 100px;
 }
-.slider {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+
+#content {
+overflow: hidden;
+width: 640px;
+height: 480px;
+-webkit-box-shadow: 0px 0px 50px 10px #c9c9c9;
+-moz-box-shadow: 0px 0px 50px 10px #c9c9c9;
+box-shadow: 0px 0px 50px 10px #c9c9c9;
 }
-.holder {
-  width: 300%;
+
+#content-inner {
+width:10000px;
+height: 480px;
 }
-.slide {
-  float: left;
-  width: 100%;
-  height: 100%;
-  position: relative;
+
+.page {
+width: 640px;
+height: 480px;
+float: left;
 }
-.temp {
-  position: absolute;
-  color: white;
-  font-size: 100px;
-  bottom: 15px;
-  left: 15px;
-  font-family: 'Josefin Slab', serif;
-  font-weight: 100;
+.page-info {
+height: 90px;
+background-color: rgba(99, 99, 99, 0.6);
+position: relative;
+margin-top: 0px;
+bottom: 103px;
+color: #dedede;
+padding-left: 20px;
+padding-top: 10px;
 }
-#slide-0 {
-  background-image: url("https://cloud.githubusercontent.com/assets/8654889/9946800/3f0397f0-5dc8-11e5-866f-f8510243f7da.jpg");
+
+.page-info h2 {
+font-size: 21px;
+margin-bottom: 10px;
+margin-top: 0px;
+color: #fafafa;
 }
-#slide-1 {
-  background-image: url("https://cloud.githubusercontent.com/assets/8654889/9946862/b3f3618a-5dc8-11e5-80c5-345bd4061992.jpg");
+
+.page-text {
+font-size: 15px;
 }
-#slide-2 {
-  background-image: url("https://cloud.githubusercontent.com/assets/8654889/9930606/6b3db762-5d67-11e5-86a1-18a586e08884.jpg");
+.button {
+float: left;
+background: #bababa;
+width: 16px;
+height: 16px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+margin-left: 5px;
+margin-right: 5px;
 }
-.slide:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 40%;
-  background: linear-gradient(transparent, black);
+
+.button:hover {
+-webkit-box-shadow: inset 0px 0px 2px 2px #d4d4d4;
+-moz-box-shadow: inset 0px 0px 2px 2px #d4d4d4;
+box-shadow: inset 0px 0px 2px 2px #d4d4d4;
 }
-.slider-nav {
-  text-align: center;
-  margin: 10px 0 0 0;
+
+.button:active {
+-webkit-box-shadow: inset 0px 0px 2px 2px #7a7a7a;
+-moz-box-shadow: inset 0px 0px 2px 2px #7a7a7a;
+box-shadow: inset 0px 0px 2px 2px #7a7a7a;
 }
-.slider-nav a {
-  width: 10px;
-  height: 10px;
-  display: inline-block;
-  background: #ddd;
-  overflow: hidden;
-  text-indent: -9999px;
-  border-radius: 50%;
+
+.button a {
+display: block;
+width: 16px;
+height: 16px;
 }
-.slider-nav a.active {
-  background: #999;
+#example {
+visibility: hidden;
+}
+
+#example:target {
+visibility: visible;
+}
+#content-inner-1:target #content-inner {
+-webkit-transition: all 400ms ease;
+-moz-transition: all 400ms ease;
+-o-transition: all 400ms ease;
+transition: all 400ms ease;
+margin-left: 0px;
+}
+
+#content-inner-2:target #content-inner {
+-webkit-transition: all 400ms ease;
+-moz-transition: all 400ms ease;
+-o-transition: all 400ms ease;
+transition: all 400ms ease;
+margin-left: -640px;
+}
+
+#content-inner-3:target #content-inner {
+-webkit-transition: all 400ms ease;
+-moz-transition: all 400ms ease;
+-o-transition: all 400ms ease;
+transition: all 400ms ease;
+margin-left: -1280px;
+}
+
+#content-inner-4:target #content-inner {
+-webkit-transition: all 400ms ease;
+-moz-transition: all 400ms ease;
+-o-transition: all 400ms ease;
+transition: all 400ms ease;
+margin-left: -1920px;
+}
+
+#content-inner-5:target #content-inner {
+-webkit-transition: all 400ms ease;
+-moz-transition: all 400ms ease;
+-o-transition: all 400ms ease;
+transition: all 400ms ease;
+margin-left: -2560px;
+}
+
+#content-inner-6:target #content-inner {
+-webkit-transition: all 400ms ease;
+-moz-transition: all 400ms ease;
+-o-transition: all 400ms ease;
+transition: all 400ms ease;
+margin-left: -3200px;
 }
