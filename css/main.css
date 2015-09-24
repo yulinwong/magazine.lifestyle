@@ -455,16 +455,20 @@ h4{
 	padding-bottom:15px;
 }
 .widget .recent-comments li header strong {
-	color:#222;
+  font-family:Montserrat;
+  font-weight: 700;
+  color:#222;
 }
 .widget .recent-comments li header a {
 	color:#e3005a;
+  font-size:13px;
 }
 .widget .recent-comments li header a:hover {
 	text-decoration:underline;
 }
 .widget .recent-comments li header em {
 	color:#777;
+  font-size:13px;
 }
 .widget .recent-comments li .entry-content .entry-thumb {
 	float:left;
@@ -472,6 +476,7 @@ h4{
 }
 .widget .recent-comments li .entry-content p {
 	font-style:italic;
+  font-size: 13px;
 }
 
 /*----------article image----------*/
