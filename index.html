@@ -25,6 +25,8 @@
         <link rel="stylesheet" href="css/animate.css">
     <!-- Slider.css -->
         <link rel="stylesheet" href="css/slider.css">
+    <!-- flexslider.css -->
+        <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 
     <!-- Google Font =========================== -->
     	  <!-- Amita / Title Font -->
@@ -102,55 +104,38 @@
                   </div><!--search-social-->
               </div><!--main-content-top-->
 <!--bottom content container left panel!-->
-    <div class="main-content-bottom row">
-      <div class="col-xs-6 .col-md-4">
-
-        <div id="content-slider">
-		<div id="content">
-
-			<div id="content-inner-1">
-			<div id="content-inner-2">
-
-			<div id="content-inner">
-				<div class="page" id="page1">
-					<img src="https://cloud.githubusercontent.com/assets/8654889/9946800/3f0397f0-5dc8-11e5-866f-f8510243f7da.jpg" alt="test1" title="test1">
-					<div class="page-info" id="info1">
-						<h2>Page 1<h2>
-						<div class="page-text">Lorem ipsum dolor sit amet, consectur whatever blah.</div>
-					</div>
-				</div>
-
-				<div class="page" id="page2">
-					<img src="https://cloud.githubusercontent.com/assets/8654889/9946862/b3f3618a-5dc8-11e5-80c5-345bd4061992.jpg" alt="test2" title="test2">
-					<div class="page-info" id="info2">
-						<h2>Page 2<h2>
-						<div class="page-text">Lorem ipsum dolor sit amet, consectur whatever blah.</div>
-					</div>
-				</div>
-
-      </div><!--end: Content inner-->
-    </div><!--end: Content inner 2-->
-  </div><!--end: Content inner 1-->
-
-<div>
-		<ul id="nav">
-			<li class="button" id="button1"><a href="#content-inner-1"><a><li>
-			<li class="button" id="button2"><a href="#content-inner-2"><a><li>
-			<li class="button" id="button3"><a href="#content-inner-3"><a><li>
-			<li class="button" id="button4"><a href="#content-inner-4"><a><li>
-			<li class="button" id="button5"><a href="#content-inner-5"><a><li>
-			<li class="button" id="button6"><a href="#content-inner-6"><a><li>
-		<ul>
-	</div>
-
-</div><!--end: Content-->
-</div><!--end: Content slider-->
-</div><!--end:content column-->
-</div><!--end:main Content bottom-->
-
-</div><!--end-main container inner both top and bottom-->
-</div><!--end-main content both top and bottom-->
-</div><!--end-main container inner both top and bottom-->
+<div class="main-content-bottom row">
+  <div class="col-xs-6 .col-md-4">
+      <div class="column-a">
+        <section class="slider">
+            <div class="flexslider" id="home-slider">
+                <ul class="slides">
+                    <li>
+                        <article>
+                            <a class="entry-thumb" href="#"><img src="https://cloud.githubusercontent.com/assets/8654889/9946800/3f0397f0-5dc8-11e5-866f-f8510243f7da.jpg" alt="" /></a>
+                            <div class="entry-content">
+                                <h2 class="entry-title"><a href="#">Style Blog & Magazine WordPress Theme</a></h2>
+                                <p>Content, or no content.</p>
+                                <a class="more-link" href="#">Learn more</a>
+                            </div><!--entry-content-->
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <a class="entry-thumb" href="#"><img src="https://cloud.githubusercontent.com/assets/8654889/9946862/b3f3618a-5dc8-11e5-80c5-345bd4061992.jpg" alt="MirandaKerr" /></a>
+                            <div class="entry-content">
+                                <h2 class="entry-title"><a href="#">Style Blog & Magazine WordPress Theme</a></h2>
+                                <p>Content, or no content. 给你 Miranda Kerr. </p>
+                                <a class="more-link" href="#">Learn more</a>
+                            </div><!--entry-content-->
+                        </article>
+                    </li>
+                </ul><!--slides-->
+            </div><!--flexslider-->
+        </section><!--slider-->
+      </div><!--end of column a-->
+    </div><!--end of grid-->
+  </div><!--main-content-bottom-->
 
 <!--page-bottom-->
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
