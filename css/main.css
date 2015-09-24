@@ -21,7 +21,7 @@
 }
 
 body {
-    background-color: #f2f2f2;
+  background:url(images/background/pattern-1.png) repeat 0 0 #f8f8f8;
     font-family: 'Lato', serif;
     font-weight: 300;
     font-size: 15px;
@@ -129,14 +129,6 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
     color:#ffffff;
 }
-/* =================== Columns ======================== */
-
-.column-a {
-	float:left;
-	width:100%;
-	padding:100%;
-  overflow:hidden;
-}
 
 /* =========================================================
 	Main Content
@@ -198,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin:0 20px;
 }
 .main-content-bottom {
-	background:url("https://cloud.githubusercontent.com/assets/8654889/10052708/d490f268-625a-11e5-9240-f9b116ea5b02.png") repeat-y 380px 0;
+	background:url(images/background/line-1.gif) repeat-y 380px 0;
 	border-bottom:1px solid #ddd;
 	position:relative;
 }
@@ -211,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 	background:none;
 }
 .sub-page.v-divider .main-content-bottom {
-	background:url("images/background/line-1.gif") repeat-y scroll 760px 0 transparent;
+	background:url(images/background/line-1.gif) repeat-y scroll 760px 0 transparent;
 }
 
 /*----------Search Social----------*/
@@ -219,6 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 	float:right;
   padding-right: 20px;
   padding-top:10px;
+  padding-bottom:10px;
 }
 /*----------Social Links----------*/
 .social-links {
