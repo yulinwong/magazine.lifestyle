@@ -61,9 +61,13 @@ a:focus, a:hover {
     color: #e3005a;
 }
 
-h1, h2, h3, h5, h6 {
+h1, h2, h5, h6 {
     font-family: "Amita";
     font-weight: 400;
+}
+
+h3{
+  font-family:400 20px "BebasNeueRegular", Arial,sans-serif;
 }
 
 h4{
@@ -512,7 +516,7 @@ h4{
 	border-top:7px solid #e3005a;
 	padding-top:10px;
 	font-size:20px;
-	background:url(images/background/pattern-4.png) repeat-x 0 12px;
+	background:url(https://cloud.githubusercontent.com/assets/8654889/10075326/b7d53910-6307-11e5-878e-abfd1c83818e.png) repeat-x 0 12px;
 	line-height:1;
 	margin-bottom:20px;
 }
