@@ -39,7 +39,7 @@
         <link href='https://fonts.googleapis.com/css?family=Autour+One' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
+<body class="home-page">
 
   <!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -132,6 +132,32 @@
                 </ul><!--slides-->
             </div><!--flexslider-->
         </section><!--slider-->
+
+        <div class="news-letter row">
+            <h4>Newsletter</h4>
+            <form class="newsletter-form" method="post" action="processNewsletterForm.php">
+                <p class="input-email clearfix">
+                    <input type="text" size="40" class="email" value="Your email *" name="email" onBlur="if(this.value=='')this.value=this.defaultValue;" onFocus="if(this.value==this.defaultValue)this.value='';">
+                    <input type="submit" class="submit" value="Submit">
+                </p>
+            </form>
+            <div id="newsletter-response"></div>
+        </div><!--news-letter-->
+
+        <section class="widget">
+            <h4 class="widget-title">Latest article</h4>
+            <a href="#" class="entry-categories">Beauty Tips & Tricks</a>
+            <div class="entry-item">
+              <article class="article">
+     <div class="article-photo">
+       <!-- article photo -->
+       <img class="img-responsive" src="https://cloud.githubusercontent.com/assets/8654889/9752676/9e3a748a-56e5-11e5-9318-fe26dd59d293.png" alt="">
+       <!-- /article photo -->
+
+              <h5 class="entry-title"><a href="#">Top 4 common myths about collagen debunked</a></h5>
+                <p><b>“Collagen creams can penetrate the dermis layers”</b></p>
+                <p>Noting that collagen molecules are fairly large, it's almost close to unlikely that collagen creams when applied topically on the surface of the skin will penetrate deep into the dermis layers. While partially hydrolyzed collagen or transdermal technologies are available, the effectiveness of that permeability remains largely on the surface.</p>
+                </div>
 
     </div><!--end of grid-->
   </div><!--main-content-bottom-->
