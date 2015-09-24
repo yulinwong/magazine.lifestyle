@@ -61,9 +61,14 @@ a:focus, a:hover {
     color: #e3005a;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
     font-family: "Amita";
     font-weight: 400;
+}
+
+h4{
+  font-family:400 18px "BebasNeueRegular", Arial,sans-serif;
+  letter-spacing: 3px;
 }
 
 .kill-margin-bottom {
@@ -318,19 +323,18 @@ h1, h2, h3, h4, h5, h6 {
 .news-letter {
 	border:1px solid #f2f2f2;
 	background:url(images/background/newsletter-bg.png) no-repeat center top #f8f8f8;
-	padding:20px;
+	padding:10px;
 	margin-bottom:30px;
 }
 .news-letter h4 {
 	text-align:center;
-	margin-bottom:55px;
 }
 .newsletter-form .email {
 	border:4px solid #f2f2f2;
 	background-color:#fff;
+  width:80%;
 	height:37px;
 	line-height:37px;
-	width:232px;
 	padding:0 10px;
 	float:left;
 	color:#666;
@@ -342,9 +346,9 @@ h1, h2, h3, h4, h5, h6 {
 	border-left:none;
 	padding:0;
 	margin:0;
-	height:45px;
+	height:37px;
 	width:38px;
-	background:url(images/icons/arrow-icon-1.png) no-repeat center center #f8f8f8;
+	background:url(https://cloud.githubusercontent.com/assets/8654889/10073127/5de6eef2-62f9-11e5-8014-ca2c3a105b7a.png) no-repeat center center #f8f8f8;
 	float:left;
 	text-indent:-99999px;
 	font-size:0;
@@ -356,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
  	transition: all 0.3s ease-in-out;
 }
 .newsletter-form .submit:hover {
-	background:url(images/icons/arrow-icon-1-hover.png) no-repeat center center #f8f8f8;
+	background:url(https://cloud.githubusercontent.com/assets/8654889/10073132/6b7ab288-62f9-11e5-9ea0-bbeb2840011e.png) no-repeat center center #f8f8f8;
 }
 
 /*----------Widget----------*/
@@ -371,14 +375,13 @@ h1, h2, h3, h4, h5, h6 {
 	padding:10px 15px;
 	margin-bottom:10px;
 	color:#fff;
-  font-family:Lato;
-  letter-spacing: 3px;
 }
 .entry-categories {
 	font-size:13px;
 	color:#e3005a;
 	font-family: 'Coda', cursive;
 	display:inline-block;
+  padding-bottom: 30px;
 }
 .entry-date {
 	font-size:10px;
