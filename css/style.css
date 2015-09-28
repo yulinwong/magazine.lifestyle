@@ -328,6 +328,23 @@ header h1 a img {
     display: block;
 }
 
+/*----------Breadcrumb----------*/
+.breadcrumb {
+	float:left;
+	margin-top:10px;
+}
+.breadcrumb span {
+	display:inline-block;
+}
+
+.breadcrumb .current-page,
+.breadcrumb a {
+	color:#e3005a;
+}
+.breadcrumb a:hover {
+	text-decoration:underline;
+}
+
 
 /****Content****/
 
