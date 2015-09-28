@@ -379,7 +379,8 @@ header h1 a img {
     padding-left: 1px;
 }
 
-.banner_bounce img{
+/* Bounce To Right */
+.hvr-bounce-to-right {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -394,8 +395,7 @@ header h1 a img {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-
-.banner_bounce:before {
+.hvr-bounce-to-right:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -415,11 +415,10 @@ header h1 a img {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-.banner_bounce:hover, .banner_bounce:focus, .banner_bounce:active img {
+.hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
   color: white;
 }
-.banner_bounce:hover:before, .banner_bounce:focus:before, .banner_bounce:active:before img {
+.hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
