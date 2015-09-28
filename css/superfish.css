@@ -117,14 +117,14 @@ nav {
 	padding: 5px;
 	display: block;
 	z-index: 999;
-	color: #fff;
 	font-weight: 300;
 }
 
 
 .sf-menu li li a:hover,
 .sf-menu li.sfHover li.sfHover>a {
-	background-color: #fff;
+	background-color: transparent;
+	color:#e3005a;
 }
 
 /*================================>> 3 Level <<========================================*/
@@ -186,7 +186,7 @@ nav {
 
 	.select-menu {
 		font:12px/15px Arial, Helvetica, sans-serif;
-		color:#202020;
+		color:#fff;
 		width:100%;
 		margin: 0 auto;
 		float: none;
