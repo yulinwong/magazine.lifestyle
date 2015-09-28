@@ -1,2 +1,0 @@
-# magazine.lifestyle
-magazine lifestyle
