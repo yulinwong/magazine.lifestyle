@@ -376,7 +376,7 @@ header h1 a img {
     position: relative;
     color: #fff;
     font: 48px/48px 'BenchNine', sans-serif;
-    padding-left: 1px;
+    width: 25%;
 }
 
 .bann_capt {
