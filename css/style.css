@@ -379,7 +379,7 @@ header h1 a img {
     padding-left: 1px;
 }
 
-.banner_bounce{
+.banner_bounce img{
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -416,10 +416,10 @@ header h1 a img {
   transition-timing-function: ease-out;
 }
 
-.banner_bounce:hover, .banner_bounce:focus, .banner_bounce:active {
+.banner_bounce:hover, .banner_bounce:focus, .banner_bounce:active img {
   color: white;
 }
-.banner_bounce:hover:before, .banner_bounce:focus:before, .banner_bounce:active:before {
+.banner_bounce:hover:before, .banner_bounce:focus:before, .banner_bounce:active:before img {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
@@ -438,7 +438,6 @@ header h1 a img {
     width: 100%;
     color: #fff;
 }
-
 
 .bann_capt span {
     transition: 0.5s ease;
