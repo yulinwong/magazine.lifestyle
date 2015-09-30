@@ -244,6 +244,7 @@ a:hover {
 
 .page1 .img_inner {
     margin-top: 7px;
+    border-radius: 50%;
 }
 
 .fleft {
@@ -371,13 +372,14 @@ header h1 a img {
 }
 
 .banner {
-    margin-bottom: 1px;
+    margin: 1px;
     display: block;
     float: left;
     position: relative;
     color: #fff;
-    font: 38px 'Orbitron', sans-serif;
-    width: 25%;
+    font: 28px 'Orbitron';
+    font-weight:500;
+    width: 24%;
 }
 
 .bann_capt {
@@ -643,7 +645,7 @@ header h1 a img {
 .text1 {
     color: #3a3838;
     margin-bottom: 11px;
-    font: 30px/30px 'Pathway Gothic One', sans-serif;
+    font: 30px/30px 'Montserrat', sans-serif;
 }
 
 .fw1 {
