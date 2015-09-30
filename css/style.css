@@ -358,9 +358,10 @@ header h1 a img {
 
 .st1 {
     font-size: 20px;
+    font-family:amita;
     line-height: 30px;
-    font-weight: normal;
-    color: #e3005a;
+    font-weight: 400;
+    color: #908b8c;
 }
 
 /****Blocks****/
