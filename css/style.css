@@ -357,7 +357,7 @@ header h1 a img {
 }
 
 .st1 {
-    font-size: 20px;
+    font-size: 16px;
     font-family:Cousine;
     line-height: 30px;
     font-weight: 300;
@@ -376,7 +376,7 @@ header h1 a img {
     float: left;
     position: relative;
     color: #fff;
-    font: 48px/48px 'BenchNine', sans-serif;
+    font: 38px 'Orbitron', sans-serif;
     width: 25%;
 }
 
