@@ -68,12 +68,12 @@ img {
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     color: #383636;
-    font-family: 'BenchNine', sans-serif;
+    font-family: Josefin slab;
 }
 
 h2 {
     padding-top: 50px;
-    font-size: 68px;
+    font-size: 60px;
     line-height: 68px;
     margin-bottom: 20px;
 }
@@ -358,7 +358,7 @@ header h1 a img {
 
 .st1 {
     font-size: 20px;
-    font-family:Roboto;
+    font-family:Cousine;
     line-height: 30px;
     font-weight: 300;
     color: #908b8c;
