@@ -585,8 +585,30 @@ header h1 a img {
     height: 49px;
 }
 
+/**Main search**/
+form {
+                width:500px;
+                margin:50px auto;
+}
+.search {
+                padding:8px 15px;
+                background:#fff;
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid  #e3005a;
+                background-color: #e47474;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#e47474;
+}
 
-/*******Search******/
+/*******Blog Search******/
 
 #search {
     position: relative;
@@ -620,8 +642,6 @@ header h1 a img {
 }
 
 
-
-
 #search a
  {
     display: block;
@@ -638,7 +658,6 @@ header h1 a img {
 {
     opacity: 0.5;
 }
-
 
 
 /****Text styles****/
