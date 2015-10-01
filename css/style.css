@@ -457,54 +457,6 @@ header h1 a img {
 .list-carousel .carousel-next:hover {
     background-position: -75px -74px;
 }
-.featured-widget ul li article header {
-	background:url(https://cloud.githubusercontent.com/assets/8654889/10232948/2c8a6120-68be-11e5-9b6d-375ca5eb6b14.png) repeat 0 0;
-	padding:5px 5px 0;
-	margin-bottom:15px;
-}
-.featured-widget ul li article header img {
-	margin-bottom:10px;
-}
-.featured-widget ul li article header p {
-	float:left;
-}
-.featured-widget ul li article header p strong {
-	font-size:28px;
-	font-family: 'Coda', cursive;
-	color:#000;
-	font-weight:800;
-	line-height:30px;
-	margin-right:5px;
-}
-.featured-widget ul li article header p span {
-	color:#000;
-	font-size:10px;
-	font-family: 'Coda', cursive;
-	width:40px;
-	white-space:pre-wrap;
-	display:inline-block;
-	line-height:14px;
-}
-
-.featured-widget ul li article header .entry-comments {
-	float:right;
-	line-height:30px;
-}
-.featured-widget ul li article .entry-content .entry-title {
-	font-size:14px;
-	font-family: 'Coda', cursive;
-	font-weight:800;
-	margin-bottom:5px;
-}
-.featured-widget ul li article .entry-content .entry-title a {
-	color:#222;
-}
-.featured-widget ul li article .entry-content .entry-title a:hover {
-	color:#e3005a;
-}
-.featured-widget {
-	position:relative;
-}
 
 /****Blocks****/
 .banners {
