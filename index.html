@@ -74,14 +74,19 @@
                <li><a href="index-3.html">Blog</a></li>
                <li><a href="index-4.html">Contact Us</a></li>
              </ul><!--end of sf menu-->
-            </nav
+           </nav>
             <div class="clear"></div>
-            <div class="search-box row">
-                <form action="#" class="search-form" method="get">
-                    <input type="text" onBlur="if(this.value=='')this.value=this.defaultValue;" onFocus="if(this.value==this.defaultValue)this.value='';" value="Search" name="s" class="search-text">
-                    <input type="submit" value="" name="submit" class="search-submit">
-                </form><!-- search-form -->
-            </div><!--end:search-box-->
+
+            <form id="search" action="search.php" method="GET">
+            <div class="rel">
+              <label>
+                <input type="text" name="s">
+              </label>
+              <a onClick="document.getElementById('search').submit()" class=""></a>
+            </div>
+             <div class="clear"></div>
+           </form>
+
          </div><!--end of nav-->
         </div><!--end of grid-->
       </div><!--end of row-->

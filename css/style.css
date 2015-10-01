@@ -585,44 +585,6 @@ header h1 a img {
     height: 49px;
 }
 
-/*----------Search Box----------*/
-.search-box {
-	float:right;
-	position:relative;
-	background-color:#fbfbfb;
-}
-.search-box .search-text {
-	background:none;
-	border:1px solid #dfdfdf;
-	width:215px;
-	padding:0 35px 0 10px;
-	height:33px;
-	line-height:33px;
-	-webkit-transition: all 0.3s ease-in-out;
- 	-moz-transition: all 0.3s ease-in-out;
- 	-o-transition: all 0.3s ease-in-out;
- 	transition: all 0.3s ease-in-out;
-}
-.search-box .search-text:focus {
-	border:1px solid #e3005a;
-}
-.search-box .search-submit {
-	border:none;
-	width:16px;
-	height:16px;
-	text-indent:-99999px;
-	font-size:0;
-	line-height:0;
-	cursor:pointer;
-	background:url(images/icons/search-icon.png) no-repeat 0 0;
-	position:absolute;
-	right:10px;
-	top:9px;
-}
-.search-box .search-submit:hover {
-	background:url(images/icons/search-icon.png) no-repeat 0 -34px;
-}
-
 /*******Blog Search******/
 
 #search {
