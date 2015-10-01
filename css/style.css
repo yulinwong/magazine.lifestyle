@@ -587,8 +587,8 @@ header h1 a img {
 
 /**Main search**/
 form {
-                width:500px;
-                margin:50px auto;
+                width:400px;
+                margin: auto;
 }
 .search {
                 padding:8px 15px;
