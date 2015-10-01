@@ -888,7 +888,7 @@ Back to top button
 	position: fixed;
 	bottom: 100px;
 	right:0;
-	margin-right:20px;
+	margin-right:100px;
 	margin-bottom:0;
 	z-index:100;
 }
@@ -900,7 +900,7 @@ Back to top button
  	-moz-transition: all 0.3s ease-in-out;
  	-o-transition: all 0.3s ease-in-out;
  	transition: all 0.3s ease-in-out;
-	background:url(images/background/back-top-bg.png) no-repeat center center #e3005a;
+	background:url(https://cloud.githubusercontent.com/assets/8654889/10236179/59e4674e-68d5-11e5-9560-6bcc0a275cc5.png) no-repeat center center #e3005a;
 	text-indent:-99999px;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.67);
 	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.67);
@@ -910,9 +910,9 @@ Back to top button
 	outline:none;
 }
 #back-top a:hover{
-	-webkit-box-shadow:0 0 10px 0 #00b9ef;
-	-moz-box-shadow:0 0 10px 0 #00b9ef;
-	box-shadow:0 0 10px 0 #00b9ef;
+	-webkit-box-shadow:0 0 10px 0 #e3005a;
+	-moz-box-shadow:0 0 10px 0 #e3005a;
+	box-shadow:0 0 10px 0 #e3005a;
 }
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
