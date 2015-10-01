@@ -301,12 +301,13 @@ a {
 .page1 .img_inner {
     margin-top: 7px;
     border-radius: 50%;
+    max-width: 50%;
 }
 
 .fleft {
     float: left;
     width: auto !important;
-    margin-right: 30px;
+    margin-right: 15px;
     margin-bottom: 0px;
 }
 
