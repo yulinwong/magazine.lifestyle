@@ -252,19 +252,19 @@ a {
 .social-links li.facebook-icon {
 	background:url(https://cloud.githubusercontent.com/assets/8654889/9979213/798a32ea-5f93-11e5-9bb5-e2b85a84bcb6.png) no-repeat center center;
 }
-.social-links li.facebook-icon a {
+.social-links li.facebook-icon a:hover {
 	background:url(https://cloud.githubusercontent.com/assets/8654889/9979214/8c8a8804-5f93-11e5-8b7f-244304eb9f7d.png) no-repeat center center;
 }
 .social-links li.linkedin-icon {
 	background:url(https://cloud.githubusercontent.com/assets/8654889/9979217/b4a9534c-5f93-11e5-9e60-2f295efa1317.png) no-repeat center center;
 }
-.social-links li.linkedin-icon a {
+.social-links li.linkedin-icon a:hover {
 	background:url(https://cloud.githubusercontent.com/assets/8654889/9979220/c401b050-5f93-11e5-98f0-4c9356811da3.png) no-repeat center center;
 }
 .social-links li.tumblr-icon {
 	background:url(https://cloud.githubusercontent.com/assets/8654889/9979221/d4e93ece-5f93-11e5-9e68-631ebcf27e09.png) no-repeat center center;
 }
-.social-links li.tumblr-icon a {
+.social-links li.tumblr-icon a:hover {
 	background:url(https://cloud.githubusercontent.com/assets/8654889/9979225/fbf17bf8-5f93-11e5-9030-1dcd575983bb.png) no-repeat center center;
 }
 
