@@ -76,10 +76,12 @@
              </ul><!--end of sf menu-->
             </nav
             <div class="clear"></div>
-          <form>
-             <input type="text" placeholder="Search Me" required>
-             <input type="button" value="Search">
-         </form>
+            <div class="search-box row">
+                <form action="#" class="search-form" method="get">
+                    <input type="text" onBlur="if(this.value=='')this.value=this.defaultValue;" onFocus="if(this.value==this.defaultValue)this.value='';" value="Search" name="s" class="search-text">
+                    <input type="submit" value="" name="submit" class="search-submit">
+                </form><!-- search-form -->
+            </div><!--end:search-box-->
          </div><!--end of nav-->
         </div><!--end of grid-->
       </div><!--end of row-->
