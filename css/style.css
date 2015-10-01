@@ -181,9 +181,8 @@ ul {
 .rate li+li+li+li .scale {
     width: 11%;
 }
+
 /****Links****/
-
-
 a {
     text-decoration: none;
     color: #5e5c5c;
@@ -215,6 +214,74 @@ a:hover {
     margin-top: 41px;
 }
 
+/*----------Search Social----------*/
+#search-social {
+	float:right;
+}
+/*----------Social Links----------*/
+.social-links {
+	margin:1px 0;
+	float:left;
+}
+.social-links li {
+	margin:0 15px 0 0;
+	list-style:none;
+	width:33px;
+	height:33px;
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	float:left;
+	position:relative;
+	z-index:0;
+}
+.social-links li a {
+	display:block;
+	width:100%;
+	height:100%;
+}
+.social-links li.twitter-icon {
+	background:url(images/icons/twitter-icon-hover.png) no-repeat center center;
+}
+.social-links li.twitter-icon a {
+	background:url(images/icons/twitter-icon.png) no-repeat center center;
+}
+.social-links li.facebook-icon {
+	background:url(images/icons/facebook-icon-hover.png) no-repeat center center;
+}
+.social-links li.facebook-icon a {
+	background:url(images/icons/facebook-icon.png) no-repeat center center;
+}
+.social-links li.dribbble-icon {
+	background:url(images/icons/dribbble-icon-hover.png) no-repeat center center;
+}
+.social-links li.dribbble-icon a {
+	background:url(images/icons/dribbble-icon.png) no-repeat center center;
+}
+.social-links li.forrst-icon {
+	background:url(images/icons/forrst-icon-hover.png) no-repeat center center;
+}
+.social-links li.forrst-icon a {
+	background:url(images/icons/forrst-icon.png) no-repeat center center;
+}
+.social-links li.lastfm-icon {
+	background:url(images/icons/lastfm-icon-hover.png) no-repeat center center;
+}
+.social-links li.lastfm-icon a {
+	background:url(images/icons/lastfm-icon.png) no-repeat center center;
+}
+.social-links li.linkedin-icon {
+	background:url(images/icons/linkedin-icon-hover.png) no-repeat center center;
+}
+.social-links li.linkedin-icon a {
+	background:url(images/icons/linkedin-icon.png) no-repeat center center;
+}
+.social-links li.tumblr-icon {
+	background:url(images/icons/tumblr-icon-hover.png) no-repeat center center;
+}
+.social-links li.tumblr-icon a {
+	background:url(images/icons/tumblr-icon.png) no-repeat center center;
+}
 
 /****classes****/
 
