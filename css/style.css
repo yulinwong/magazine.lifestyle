@@ -88,20 +88,10 @@ h3 {
   	margin-bottom:20px;
 }
 
-.page1 h3 {
-    text-align: left;
-    padding-top: 40px;
-    margin-bottom:25px;
-}
-
-.page1 h3.head1 {
-    padding-top: 40px;
-    margin-bottom: 29px;
-}
-
 .head1 span {
   background-color:#fff;
 	padding-right:20px;
+  color:#f6546a;
 }
 
 /****Lists****/
