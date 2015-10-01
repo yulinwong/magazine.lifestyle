@@ -235,7 +235,7 @@ a:hover {
 	position:relative;
 	z-index:0;
 }
-.social-links li a:hover-effect {
+.social-links li a {
 	display:block;
 	width:100%;
 	height:100%;
@@ -357,7 +357,6 @@ header {
     display: block;
     position: relative;
     z-index: 800;
-    padding-top: 28px;
     border-bottom: 1px solid #414141;
 }
 
