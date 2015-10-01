@@ -82,6 +82,10 @@ h3 {
     font-size: 40px;
     line-height: 60px;
     padding-top: 71px;
+    text-align: left;
+    background:url(https://cloud.githubusercontent.com/assets/8654889/10231832/86396114-68b7-11e5-9ca2-d15d3a9086e8.png) repeat-x 0 50px;
+  	line-height:1;
+  	margin-bottom:20px;
 }
 
 .page1 h3 {
@@ -91,10 +95,13 @@ h3 {
 }
 
 .page1 h3.head1 {
-  text-align: left;
-  background:url(https://cloud.githubusercontent.com/assets/8654889/10231832/86396114-68b7-11e5-9ca2-d15d3a9086e8.png) repeat-x 0 12px;
-  line-height:1;
-  margin-bottom:20px;
+    padding-top: 40px;
+    margin-bottom: 29px;
+}
+
+.head1 span {
+  background-color:#fff;
+	padding-right:20px;
 }
 
 /****Lists****/
