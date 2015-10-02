@@ -733,7 +733,7 @@ header h1 a img {
 
 /****Text styles****/
 .text1 {
-    color: #615f5f;
+    color: #757373;
     margin-bottom: 11px;
     font: 30px/30px 'Montserrat', sans-serif;
 }
@@ -764,7 +764,7 @@ header h1 a img {
 }
 
 .text1 time+a:hover {
-  color:#ca3e5d;
+  color:#e47f7f;
 }
 
 .color1 {
