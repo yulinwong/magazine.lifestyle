@@ -18,6 +18,43 @@ a[href^="tel:"] {
     -webkit-text-size-adjust: none;
 }
 
+/*============ Navigation ================*/
+
+.navbar-default {
+	background-color: #fff;
+  font-family: 'Pathway Gothic One', sans-serif;
+  border-bottom: 1px solid #666;
+	width: 100%;
+	z-index: 99;
+}
+
+.navbar-brand > img {
+  object-fit: contain;
+  max-height: 100%;
+  height: 100%;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #5e5c5c;
+    font-size: 14px;
+    line-height: 26px;
+    padding: 20px 15px;
+
+	-webkit-transition: background .5s ease-in-out 0s;
+	   -moz-transition: background .5s ease-in-out 0s;
+		 -o-transition: background .5s ease-in-out 0s;
+			transition: background .5s ease-in-out 0s;
+}
+
+.navbar-default .navbar-nav > li.current > a {
+    color: #e47474;
+    text-decoration: overline;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #6cb670;
+}
+
 body {
     position: relative;
     background-color: #fff;
