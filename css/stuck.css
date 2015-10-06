@@ -1,5 +1,5 @@
 #header-wrap {
-    background: #eeeeff;
+    background: transparent;
     position: fixed;
     width: 100%;
     height: 0px;
@@ -17,7 +17,7 @@
 		background-color: #fff;
 		padding: 15px;
 		border-bottom: 5px solid #e3005a;
-		margin: 50px;
+		margin-top: 50px;
 }
 
 .isStuck {
