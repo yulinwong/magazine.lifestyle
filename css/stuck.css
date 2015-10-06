@@ -60,6 +60,7 @@
 }
 
 	.isStuck {
+    display: none !important;
 	}
 
 }
@@ -76,12 +77,14 @@
 	}
 
 	.isStuck {
+    display: none !important;
 	}
 }
 
 @media only screen and (max-width: 767px) {
 
 	.isStuck {
+    display: none !important;
+  }
 
-}
 }
