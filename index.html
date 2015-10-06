@@ -18,6 +18,18 @@
 <script src="js/jquery.mobilemenu.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/tmStickUp.js"></script>
+<script type="text/javascript">
+//initializing jQuery
+                jQuery(function($) {
+                  $(document).ready( function() {
+                    //enabling stickUp on the '#stuck_container' class
+                    $('#stuck_container').stickUp({
+                      //enabling marginTop with the 'auto' setting
+                      marginTop: 'auto'
+                    });
+                });
+              });
+</script>
 <script src="js/jquery.ui.totop.js"></script>
 
 <link href='http://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'>
