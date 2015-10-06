@@ -55,6 +55,24 @@ a[href^="tel:"] {
     color: #6cb670;
 }
 
+.navbar-toggle{
+  position:relative;
+  float:right;
+  padding:9px 10px;
+  margin: 8px 15px 8px 0;
+  background-color: transparent;
+  border:1px solid #ddd;
+  border-radius:4px;
+}
+
+.sr-only{
+  position:absolute;
+  width:1px;
+  height:1px;
+  margin:-1px;
+  overflow:hidden;
+}
+
 body {
     position: relative;
     background-color: #fff;
