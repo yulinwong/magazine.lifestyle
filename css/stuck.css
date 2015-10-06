@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #header-wrap {
     background: transparent;
     position: fixed;
@@ -7,6 +8,8 @@
     z-index: 1;
 }
 
+=======
+>>>>>>> parent of 41f0783... added header wrap to fix nav header
 #stuck_container {
 		-webkit-transition: all 0.4s ease;
 		-moz-transition: all 0.4s ease;
