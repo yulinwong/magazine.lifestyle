@@ -248,8 +248,6 @@
 		onDestroy: $.noop
 	};
 
-	$('.dropdown-toggle').dropdown()
-
 	// soon to be deprecated
 	$.fn.extend({
 		hideSuperfishUl: methods.hide,
