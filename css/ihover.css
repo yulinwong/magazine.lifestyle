@@ -52,6 +52,7 @@
 }
 .ih-item.circle .img img {
   border-radius: 50%;
+  max-width: 100%;
 }
 .ih-item.circle .info {
   box-shadow: none !important;
@@ -2091,12 +2092,14 @@
   color: #fff;
   text-transform: uppercase;
   position: relative;
-  letter-spacing: 2px;
-  font-size: 22px;
+  letter-spacing: 1px;
+  font-family:Montserrat;
+  font-size: 20px;
   margin: 0 30px;
-  padding: 55px 0 0 0;
-  height: 110px;
+  padding: 80px 0 0 0;
+  height: 120px;
   text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 .ih-item.circle.effect16 .info p {
   color: #bbb;

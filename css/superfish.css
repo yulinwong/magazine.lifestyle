@@ -58,7 +58,8 @@ nav {
 }
 
 .sf-menu>li.sfHover>a, .sf-menu>li.current>a, .sf-menu>li>a:hover {
-	color: #383636;
+	color: #e47474;
+	text-decoration: overline;
 }
 
 .sf-menu>li>ul>li>a.sf-with-ul:after {
@@ -124,7 +125,7 @@ nav {
 .sf-menu li li a:hover,
 .sf-menu li.sfHover li.sfHover>a {
 	background-color: transparent;
-	color:#e3005a;
+	color:#e47474;
 }
 
 /*================================>> 3 Level <<========================================*/
